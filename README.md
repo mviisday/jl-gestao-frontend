@@ -109,4 +109,4 @@ Estudante de **Sistemas de Informação** com foco em desenvolvimento Full Stack
 
 ---
 
-⭐ Este projeto está em desenvolvimento e novas funcionalidades poderão ser adicionadas conforme a evolução do JL Gestão.
+Este projeto está em desenvolvimento e novas funcionalidades poderão ser adicionadas conforme a evolução do JL Gestão.
