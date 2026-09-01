@@ -1,16 +1,112 @@
-# React + Vite
+# JL Gestão — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface web do **JL Gestão**, um sistema de gestão desenvolvido para auxiliar no controle financeiro e acompanhamento das operações do **JL Espaço e Lazer**.
 
-Currently, two official plugins are available:
+Este repositório contém o **front-end da aplicação**, responsável pela interface utilizada para registrar e visualizar as informações gerenciadas pelo sistema.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+O **JL Gestão** foi desenvolvido com o objetivo de facilitar o acompanhamento financeiro do estabelecimento, centralizando informações de entradas, despesas e resultados em uma interface simples e organizada.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto é dividido em dois repositórios:
 
-## Expanding the ESLint configuration
+* **Frontend:** interface e interação com o usuário.
+* **Backend:** API, regras de negócio e comunicação com o banco de dados.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+A interface permite:
+
+* Registrar entradas financeiras
+* Registrar despesas
+* Informar diferentes formas de pagamento
+* Visualizar dados financeiros
+* Acompanhar entradas e despesas
+* Consultar informações por período
+* Visualizar o resultado financeiro
+* Interagir com os dados fornecidos pela API do JL Gestão
+
+## Tecnologias
+
+Tecnologias utilizadas no desenvolvimento do frontend:
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+* Visual Studio Code
+
+## Integração com o Backend
+
+O frontend trabalha em conjunto com a API REST do **JL Gestão Backend**.
+
+A aplicação backend é responsável pelas regras de negócio, comunicação com o banco de dados e disponibilização das informações utilizadas pela interface.
+
+**Repositório do Backend:**
+https://github.com/mviisday/jl-gestao-backend
+
+## Como executar
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/mviisday/jl-gestao-frontend.git
+```
+
+### 2. Entre na pasta
+
+```bash
+cd jl-gestao-frontend
+```
+
+### 3. Inicie o backend
+
+Para utilizar todas as funcionalidades, a API do JL Gestão deve estar em execução.
+
+### 4. Execute o frontend
+
+Abra o projeto no Visual Studio Code e execute o arquivo `index.html` no navegador.
+
+Caso utilize a extensão **Live Server**, clique com o botão direito sobre o `index.html` e selecione:
+
+```text
+Open with Live Server
+```
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard do JL Gestão](docs/imagens/dashboard.png)
+
+### Cadastro de entrada
+
+![Cadastro de entrada](docs/imagens/cadastro-entrada.png)
+
+### Cadastro de despesa
+
+![Cadastro de despesa](docs/imagens/cadastro-despesa.png)
+
+> As imagens devem estar dentro da pasta `docs/imagens` do repositório.
+
+## Objetivo
+
+Além de atender a uma necessidade real de gestão, o projeto também faz parte do meu desenvolvimento profissional na área de tecnologia, aplicando na prática conhecimentos de desenvolvimento **Full Stack**, integração entre frontend e backend, APIs REST e banco de dados.
+
+## Desenvolvedora
+
+**Vitória Fernandes**
+
+Estudante de **Sistemas de Informação** com foco em desenvolvimento Full Stack.
+
+## Links
+
+* **GitHub:** https://github.com/mviisday
+* **LinkedIn:** https://www.linkedin.com/in/vitoria-fernandes-b47b60362
+* **Portfólio:** https://portifolio-vitoria.vercel.app/
+* **Backend do JL Gestão:** https://github.com/mviisday/jl-gestao-backend
+
+---
+
+⭐ Este projeto está em desenvolvimento e novas funcionalidades poderão ser adicionadas conforme a evolução do JL Gestão.
