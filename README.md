@@ -74,22 +74,6 @@ Caso utilize a extensão **Live Server**, clique com o botão direito sobre o `i
 Open with Live Server
 ```
 
-## Screenshots
-
-### Dashboard
-
-![Dashboard do JL Gestão](docs/imagens/dashboard.png)
-
-### Cadastro de entrada
-
-![Cadastro de entrada](docs/imagens/cadastro-entrada.png)
-
-### Cadastro de despesa
-
-![Cadastro de despesa](docs/imagens/cadastro-despesa.png)
-
-> As imagens devem estar dentro da pasta `docs/imagens` do repositório.
-
 ## Objetivo
 
 Além de atender a uma necessidade real de gestão, o projeto também faz parte do meu desenvolvimento profissional na área de tecnologia, aplicando na prática conhecimentos de desenvolvimento **Full Stack**, integração entre frontend e backend, APIs REST e banco de dados.
@@ -101,10 +85,6 @@ Além de atender a uma necessidade real de gestão, o projeto também faz parte 
 Estudante de **Sistemas de Informação** com foco em desenvolvimento Full Stack.
 
 ## Links
-
-* **GitHub:** https://github.com/mviisday
-* **LinkedIn:** https://www.linkedin.com/in/vitoria-fernandes-b47b60362
-* **Portfólio:** https://portifolio-vitoria.vercel.app/
 * **Backend do JL Gestão:** https://github.com/mviisday/jl-gestao-backend
 
 ---
